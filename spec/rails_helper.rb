@@ -21,4 +21,5 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   config.include FactoryBot::Syntax::Methods
     config.include Devise::Test::IntegrationHelpers, type: :system
+    config.include Devise::Test::IntegrationHelpers, type: :request
 end
