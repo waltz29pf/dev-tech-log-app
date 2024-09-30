@@ -85,6 +85,7 @@ describe 'User', type: :system do
       end
     end
   end
+
  describe 'ログイン機能の検証' do
     # 事前にユーザー作成
     before do
